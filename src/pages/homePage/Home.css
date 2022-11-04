@@ -1,0 +1,107 @@
+.home-section-1{
+  background-image: url('../../other/images/home/HomeSection1BG.jpg');
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;
+
+}
+
+#middleBarInfo {
+  width: 100%;
+  background: white;
+  border-top: 1px solid rgba(255,255,255, .2);
+  border-bottom: 1px solid rgba(255,255,255, .2);
+  position: sticky;
+  top: 0;
+}
+
+	.home-section-3{
+         
+          background-image: url("../../other/images/home/cleaningImg1.jpg");
+          background-size:     cover;                      /* <------ */
+          background-repeat:   no-repeat;
+          background-position: center center;
+          background-attachment: fixed;
+         
+	}
+
+	.home-section-4{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+		
+	}
+
+	.home-section-5{
+		background-image: url("../../other/images/home/HomeCleaning3.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+	}
+
+	.home-section-6{
+		
+	}
+
+
+
+  .homeQuote {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    position: relative;
+    margin: 1em;
+    padding: 0.5em 2em 0.5em 3em;
+    font-size: 1.9rem;
+}
+
+
+@media screen and (max-width: 390px) {
+  .homeQuote{
+    font-size: 1.2rem;
+  }
+  .homeQuote .homeQuoteAutor{
+    font-size: .8rem;
+  }
+
+
+ 
+}
+.homeQuote:before {
+    font-family: Georgia, serif;
+    position: absolute;
+    font-size: 5em;
+    line-height: 1;
+    top: 0;
+    left: 0;
+    content: "\201C";
+    color: var(--color-primary);;
+}
+.homeQuote:after {
+    font-family: Georgia, serif;
+    position: absolute;
+   /* display: block; don't use this, it raised the quote too high from the bottom - defeated line-height? */
+    float:right;
+    font-size:5em;
+    line-height: 1;
+    right:0px;
+    bottom:-0.6em;
+    content: "\201D";
+    color: var(--color-primary);;
+}
+.homeQuote .homeQuoteAutor {
+  font-family: 'Dancing Script', cursive;
+    padding: 0 2em 0 0;
+    text-align:right;
+    font-size: 1rem;
+ 
+
+
+    
+}
+.homeQuote cite:before {
+    content: "\2013";
+    
+    color: var(--color-primary);;
+}
