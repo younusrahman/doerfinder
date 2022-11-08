@@ -103,13 +103,3 @@ export default function Home() {
   );
 }
 
-// ---------------------
-{
-  /* <div className="home-section-1"></div>
-
-<div className="home-section-2"></div>
-
-<div className="home-section-3"></div>
-
-<div className="home-section-4"></div> */
-}
